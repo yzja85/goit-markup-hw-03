@@ -17,10 +17,16 @@ ul, ol{
 }
 img{
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 body {
   margin: 0;
   font-family: 'roboto',sans-serif;
+}
+.box{
+  border: 1px solid #EEEEEE;
+  
 }
 
 .container{
@@ -332,35 +338,39 @@ background-color: var(--accent-color);
   display: flex;
   justify-content: space-between;
 }
-.section-4-img1{
-  display: block;
-  
-}
-.section-4-img2 {
-  display: block;
-}
-.section-4-img3 {
-  display: block;
-}
-.section-4-img4 {
-  display: block;
-}
+
 .section-4-employee-1{
   margin-left: 0;
   margin-right: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+  0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
   
 }
 .section-4-employee-2 {
   margin-right: 30px;
  margin-left: 0;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+0px 1px 1px rgba(0, 0, 0, 0.14),
+0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
 }
 .section-4-employee-3 {
   margin-right: 30px;
   padding-left: 0;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+  0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .section-4-employee-4 {
   margin-right: 0px;
   margin-left: 0;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+  0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .section-4-img1-name {
   font-weight: 500;
@@ -369,6 +379,7 @@ background-color: var(--accent-color);
   letter-spacing: 0.03em;
   color: var(--first-text-color);
   margin-top: 30px;
+  padding-left: 60px;
 }
 .section-4-img1-profession {
   font-weight: normal;
@@ -377,6 +388,8 @@ background-color: var(--accent-color);
   letter-spacing: 0.03em;
   color: var(--second-text-color);
   margin-top: 10px;
+  padding-left: 70px;
+  padding-bottom: 30px;
 }
 .section-4-img2-name {
   font-weight: 500;
@@ -385,6 +398,7 @@ background-color: var(--accent-color);
   letter-spacing: 0.03em;
   color: var(--first-text-color);
   margin-top: 30px;
+  padding-left: 81px;
 }
 .section-4-img2-profession {
   font-weight: normal;
@@ -393,6 +407,8 @@ background-color: var(--accent-color);
   letter-spacing: 0.03em;
   color: var(--second-text-color);
   margin-top: 10px;
+  padding-left: 62px;
+  padding-bottom: 30px;
 }
 .section-4-img3-name {
   font-weight: 500;
@@ -401,6 +417,8 @@ background-color: var(--accent-color);
   letter-spacing: 0.03em;
   color: var(--first-text-color);
   margin-top: 30px;
+  padding-left: 67px;
+
 }
 .section-4-img3-profession {
   font-weight: normal;
@@ -409,6 +427,8 @@ background-color: var(--accent-color);
   letter-spacing: 0.03em;
   color: var(--second-text-color);
   margin-top: 10px;
+  padding-left: 97px;
+  padding-bottom: 30px;
 }
 
 .section-4-img4-name {
@@ -418,6 +438,7 @@ background-color: var(--accent-color);
   letter-spacing: 0.03em;
   color: var(--first-text-color);
   margin-top: 30px;
+  padding-left: 68px;
 }
 .section-4-img4-profession {
   font-weight: normal;
@@ -426,6 +447,8 @@ background-color: var(--accent-color);
   letter-spacing: 0.03em;
   color: var(--second-text-color);
   margin-top: 10px;
+  padding-left: 92px;
+  padding-bottom: 30px;
 }
 /* footer */
 .footer {
@@ -598,6 +621,7 @@ background-color: var(--accent-color);
 }
 .second-portfolio-item{
   margin-top: 29px;
+  box-sizing: border-box;
 }
 .second-portfolio-item-name1 {
   font-weight: bold;
