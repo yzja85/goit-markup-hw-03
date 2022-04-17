@@ -189,10 +189,21 @@ background-color: var(--accent-color);
 }
 .section-2-list {
   display: flex;
-  justify-content: space-between;
+  
 }
-.section-2-item {
+.section-2-item-1 {
+  margin-left: 0;
+  margin-right: 30px;
 
+}
+.section-2-item-2{
+  margin-right: 30px;
+}
+.section-2-item-3{
+  margin-right: 30px;
+}
+.section-2-item-4{
+  margin-right: 0;
 }
 .section-2-title-1 {
   font-weight: bold;
@@ -274,11 +285,7 @@ background-color: var(--accent-color);
   padding-bottom: 94px;
   
 }
-.section-3 .container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 .section-3-title {
   font-weight: bold;
   font-size: 36px;
@@ -286,23 +293,31 @@ background-color: var(--accent-color);
   letter-spacing: 0.03em;
   color: var(--first-text-color);
   margin-bottom: 50px;
+  padding-left: 393px;
  
 }
 .section-3-list{
   display: flex;
-  justify-content: space-between;
+ 
+}
+.section-3-item-img1{
+  margin-right:30px;
+  margin-left: 0px;
+}
+.section-3-item-img2{
+  margin-right: 30px;
+}
+.section-3-item-img3{
+  margin-right: 0;
 }
 /* section 4 */
 .section-4 {
   background-color: #f5f4fa;
-  padding-top: 102px;
+  padding-top: 94px;
   padding-bottom: 94px;
+  
 }
-.section-4 .container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 .section-4-title {
   font-weight: bold;
   font-size: 36px;
@@ -310,14 +325,43 @@ background-color: var(--accent-color);
   letter-spacing: 0.03em;
   color: var(--first-text-color);
   margin-bottom: 42px;
- 
- 
-}
+  padding-left: 452px;
+ }
+
 .section-4-list{
   display: flex;
- 
+  justify-content: space-between;
 }
-
+.section-4-img1{
+  display: block;
+  
+}
+.section-4-img2 {
+  display: block;
+}
+.section-4-img3 {
+  display: block;
+}
+.section-4-img4 {
+  display: block;
+}
+.section-4-employee-1{
+  margin-left: 0;
+  margin-right: 30px;
+  
+}
+.section-4-employee-2 {
+  margin-right: 30px;
+ margin-left: 0;
+}
+.section-4-employee-3 {
+  margin-right: 30px;
+  padding-left: 0;
+}
+.section-4-employee-4 {
+  margin-right: 0px;
+  margin-left: 0;
+}
 .section-4-img1-name {
   font-weight: 500;
   font-size: 16px;
